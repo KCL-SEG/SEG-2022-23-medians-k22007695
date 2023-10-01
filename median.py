@@ -1,9 +1,11 @@
 import statistics
 #Median Calculator
 
+#Orders list
 def orderNumbers(numbers):
     return (sorted(numbers))
 
+#Finds median of list
 def findMedian(numbers):
     return (statistics.median(map(float,numbers)))
 
@@ -17,5 +19,6 @@ while True:
         break
 
 numbers = orderNumbers(numbers)
+print("Hello")
 print(findMedian(numbers))
 
